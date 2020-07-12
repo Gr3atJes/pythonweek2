@@ -1,0 +1,132 @@
+h<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Newsroom</title>
+    <link rel="stylesheet" href="htt" />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: #000;"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+        id="brand"
+        style="font-family: 'Abril Fatface', cursive;"
+      >
+        <i class="far fa-newspaper"></i> The Newsroom</a
+      >
+      <!--collapse button-->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#basicExampleNav"
+        aria-controls="basicExampleNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--collapisble content-->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+        <!--links-->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Categories</a
+            >
+            <div
+              class="dropdown-menu dropdown-primary"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a class="dropdown-item" href="/category/{{categories[0]}}"
+                >Business <i class="fas fa-briefcase"> </i
+              ></a>
+              <a class="dropdown-item" href="/category/{{categories[1]}}"
+                >Entertainment <i class="fas fa-tv"> </i
+              ></a>
+              <a class="dropdown-item" href="/category/{{categories[2]}}"
+                >General <i class="fab fa-hacker-news"></i
+              ></a>
+              <a class="dropdown-item" href="/category/{{categories[3]}}"
+                >Health <i class="fas fa-medkit"></i
+              ></a>
+              <a class="dropdown-item" href="/category/{{categories[4]}}"
+                >Science <i class="fas fa-flask"></i
+              ></a>
+              <a class="dropdown-item" href="/category/{{categories[4]}}"
+                >Sports <i class="fas fa-football-ball"></i
+              ></a>
+              <a class="dropdown-item" href="/category/{{categories[6]}}"
+                >Technology <i class="fas fa-sim-card"></i
+              ></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Navbar-->
+
+    {%block content%}
+    {%endblock%}
+
+    <!--Footer-->
+    <footer class="page-footer font-small darken-3" style="background-color: #000;">
+        <div class="container">
+            <div class="row">
+                <div class="mb-5 flex-center">
+                    <!--Facebook-->
+                    <a class = "fb-ic" href="/oopsy">
+                    <i class = "fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
+
+                    </i></a>
+                    <!--Twitter-->
+                    <a class="tw-ic" href="https://mobile.twitter.com/hacker_jes" target="_blank">
+                    <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
+
+                    </i></a>
+                    <!--Google-->
+                    <a class ="gplus-ic" href="/dead">
+                    <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x">
+
+                    </i></a>
+                    <!--LinkedIn-->
+                    <a class="li-ic" href="/notyet" target="_blank"> 
+                    <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3  fa-2x">
+                        </i>
+
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic" href="https://www.instagram.com/mathiujes/" target="_blank">
+                        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Pinterest-->
+                    <a class="pin-ic" href="https://github.com/Gr3atJes" target="_blank">
+                    <i class="fab fa-github fa-lg white-text fa-2x"> 
+
+                    </i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyroght text-center py-3"> 2020 Copyright:
+            <a href="/"> The Newsroom</a>
+        </div>
+    </footer>
+    <!--footer-->
+
+
+    <script type="text/javascript" src="h"
+  </body>
+</html>
