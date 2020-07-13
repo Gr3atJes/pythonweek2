@@ -1,5 +1,6 @@
-from flask import flask
+
 from config import config_options
+from flask.app import Flask
 
 def create_app(config_name):
     # Creating instance
